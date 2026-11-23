@@ -2,6 +2,13 @@
 
 A ready-to-use Telegram bot that takes orders for a small business, such as a café, bakery, flower shop or local store. Customers browse the menu, fill a cart and place an order without leaving Telegram. The owner gets every order instantly and updates its status with one tap.
 
+<p align="center">
+  <img src="docs/demo.gif" width="300" alt="Customer view: catalog, cart, checkout, order statuses">
+  &nbsp;&nbsp;
+  <img src="docs/owner.gif" width="300" alt="Owner view: new order card with status buttons">
+</p>
+<p align="center"><i>Left: the customer orders. Right: the owner gets the order and updates its status.</i></p>
+
 ## What it does
 
 **For customers**
@@ -27,8 +34,8 @@ The interface is in Russian and English. The bot picks the language from the cus
 🛒 Cart: Cappuccino × 2, Cheesecake × 1 — Total: 790 ₽ → ✅ Checkout
 → name → 📱 phone → 🚗 Courier delivery · 150 ₽ → address → "no sugar" → ✅ Confirm
 Customer: 🎉 Order #17 is placed!
-Owner:    🆕 Order #17 … [👨‍🍳 Accept] [❌ Cancel]
-Customer: 📦 Order #17: 👨‍🍳 being prepared
+Owner:    🆕 Order #17 … [🍳 Accept] [❌ Cancel]
+Customer: 📦 Order #17: 🍳 being prepared
 ```
 
 ## Run it
