@@ -1,0 +1,38 @@
+{
+  "name": {"ru": "Кофейня «Demo»", "en": "Demo Coffee"},
+  "address": {"ru": "ул. Примерная, 1", "en": "1 Example Street"},
+  "phone": "+7 900 000-00-00",
+  "hours": {"ru": "ежедневно 8:00–22:00", "en": "daily 8 am – 10 pm"},
+  "currency": {"ru": "₽", "en": "₽"},
+  "min_order": 300,
+  "delivery": {
+    "pickup":   {"name": {"ru": "🏃 Самовывоз", "en": "🏃 Pickup"}, "price": 0, "needs_address": false},
+    "courier":  {"name": {"ru": "🚗 Доставка курьером", "en": "🚗 Courier delivery"}, "price": 150, "needs_address": true, "free_from": 1500}
+  },
+  "categories": {
+    "coffee": {
+      "name": {"ru": "☕ Кофе", "en": "☕ Coffee"},
+      "products": {
+        "espresso":   {"name": {"ru": "Эспрессо", "en": "Espresso"}, "price": 150, "desc": {"ru": "30 мл, двойная обжарка", "en": "30 ml, double roast"}},
+        "cappuccino": {"name": {"ru": "Капучино", "en": "Cappuccino"}, "price": 250, "desc": {"ru": "300 мл, молоко на выбор", "en": "300 ml, choice of milk"}},
+        "latte":      {"name": {"ru": "Латте", "en": "Latte"}, "price": 270, "desc": {"ru": "400 мл", "en": "400 ml"}},
+        "raf":        {"name": {"ru": "Раф ванильный", "en": "Vanilla raf"}, "price": 320, "desc": {"ru": "400 мл, сливки и ваниль", "en": "400 ml, cream and vanilla"}}
+      }
+    },
+    "desserts": {
+      "name": {"ru": "🍰 Десерты", "en": "🍰 Desserts"},
+      "products": {
+        "cheesecake": {"name": {"ru": "Чизкейк", "en": "Cheesecake"}, "price": 290, "desc": {"ru": "Нью-Йорк, 150 г", "en": "New York style, 150 g"}},
+        "croissant":  {"name": {"ru": "Круассан", "en": "Croissant"}, "price": 180, "desc": {"ru": "Сливочный, свежая выпечка", "en": "Butter, freshly baked"}},
+        "macarons":   {"name": {"ru": "Макаронс ×3", "en": "Macarons ×3"}, "price": 240, "desc": {"ru": "Ассорти вкусов", "en": "Assorted flavours"}}
+      }
+    },
+    "beans": {
+      "name": {"ru": "🫘 Кофе в зёрнах", "en": "🫘 Coffee beans"},
+      "products": {
+        "brazil":   {"name": {"ru": "Бразилия, 250 г", "en": "Brazil, 250 g"}, "price": 690, "desc": {"ru": "Орех и шоколад", "en": "Nuts and chocolate"}},
+        "ethiopia": {"name": {"ru": "Эфиопия, 250 г", "en": "Ethiopia, 250 g"}, "price": 890, "desc": {"ru": "Ягоды и цитрус", "en": "Berries and citrus"}}
+      }
+    }
+  }
+}
